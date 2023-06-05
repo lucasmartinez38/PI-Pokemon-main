@@ -115,14 +115,14 @@ Deberás crear dos modelos para tu base de datos. Una será para los pokemones y
 **📍 MODELO 1 | Pokemons**
 
 -  ID. \*
--  Nombre. \*
--  Imagen. \*
--  Vida. \*
--  Ataque. \*
--  Defensa. \*
--  Velocidad.
--  Altura.
--  Peso.
+-  name. \*
+-  image. \*
+-  life. \*
+-  stroke. \*
+-  defending. \*
+-  speed.
+-  height.
+-  weight.
 
 <br />
 
@@ -183,7 +183,7 @@ Tu servidor deberá contar con las siguientes rutas:
 
 Se debe desarrollar una aplicación utilizando **React** y **Redux** que contenga las siguientes vistas:
 
-**📍 LANDING PAGE |** deberás crear una página de inicio o bienvenida con:
+**📍 LANDING PAGE |** deberás crear una página de inicio o  bienvenida con:
 
 -  Alguna imagen de fondo representativa al proyecto.
 -  Botón para ingresar a la **`home page`**.

@@ -1,0 +1,24 @@
+.body{
+    background: url("../../assets/img/about.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+ .btn button {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 26px;
+    color: #f7f7f7;
+    padding: 9px 25px;
+    background: #39f30093;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ .btn button:hover {
+    color: rgb(255, 238, 0);
+    transform: scale(1.4);
+}
